@@ -27,7 +27,7 @@ I’m Ehsan Shah, a UX designer and lecturer from Gwadar, Pakistan, passionate a
 My research lies at the intersection of Human–Computer Interaction, User-Centered Design, and Educational Technology.
 
 🎓 Education  
-- BS Computer Science, University of Turbat (CGPA 3.824.00)
+- BS Computer Science, University of Turbat (CGPA 3.82/4.00)
 
 🏫 Current Role  
 - Lecturer in Computer Science, University of Gwadar  
@@ -98,6 +98,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 © 2025 Ehsan Shah — UX Designer & HCI Researcher
+
 
 
 
