@@ -17,7 +17,7 @@ This site showcases my work, research, and experience in User Experience (UX) De
 
 ## 🚀 Live Portfolio
 
-🔗 Visit my live site [ehsanshahbaloch.github.io](httpsehsanshahbaloch.github.io)  
+🔗 Visit my live site [ehsanshahbaloch.github.io](ehsanshahbaloch.github.io)  
 
 ---
 
@@ -98,6 +98,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 © 2025 Ehsan Shah — UX Designer & HCI Researcher
+
 
 
 
