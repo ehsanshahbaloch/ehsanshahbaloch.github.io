@@ -5,137 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Ehsan Shah — UX Designer & HCI Researcher</title>
   <meta name="description" content="Portfolio of Ehsan Shah — UX Design, Human-Computer Interaction, and Data-Driven Interfaces." />
-  <style>
-    :root {
-      --bg: #0f1724;
-      --card: #0b1220;
-      --text: #e6eef6;
-      --muted: #9aa4b2;
-      --accent: #06b6d4;
-      --maxw: 960px;
-      --btntext: #042027;
-      font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-    }
-    [data-theme="light"] {
-      --bg: #f6f7fb;
-      --card: #ffffff;
-      --text: #1a1d23;
-      --muted: #4a4f59;
-      --btntext: #ffffff;
-    }
-    * { box-sizing: border-box; transition: background 0.3s, color 0.3s; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      -webkit-font-smoothing: antialiased;
-    }
-    .wrap {
-      max-width: var(--maxw);
-      margin: 32px auto;
-      padding: 20px;
-    }
-    header {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 18px;
-      margin-bottom: 30px;
-      justify-content: space-between;
-    }
-    .avatar img {
-      width: 110px;
-      height: 110px;
-      border-radius: 14px;
-      object-fit: cover;
-      box-shadow: 0 6px 18px rgba(2,6,23,0.4);
-    }
-    h1 {
-      margin: 0;
-      font-size: 28px;
-      line-height: 1.1;
-    }
-    p.lead {
-      margin: 6px 0 0;
-      color: var(--muted);
-    }
-    nav {
-      margin-top: 12px;
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-    a.btn {
-      background: var(--accent);
-      color: var(--btntext);
-      padding: 8px 14px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 600;
-      display: inline-block;
-    }
-    a.btn:hover {
-      opacity: 0.9;
-      transform: translateY(-1px);
-    }
-    .toggle {
-      margin-left: auto;
-      cursor: pointer;
-      background: var(--card);
-      color: var(--accent);
-      padding: 8px 12px;
-      border-radius: 8px;
-      border: 1px solid var(--accent);
-      font-size: 14px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr 320px;
-      gap: 25px;
-      margin-top: 20px;
-    }
-    @media (max-width: 860px) {
-      .grid { grid-template-columns: 1fr; }
-      header { flex-direction: column; align-items: flex-start; }
-      .toggle { align-self: flex-end; margin-top: 8px; }
-    }
-    .card {
-      background: var(--card);
-      padding: 22px;
-      border-radius: 14px;
-      box-shadow: 0 6px 18px rgba(2,6,23,0.3);
-      margin-bottom: 25px;
-    }
-    h2 { margin: 0 0 14px; font-size: 18px; }
-    ul.clean { list-style: none; padding: 0; margin: 0; }
-    li.item {
-      padding: 12px;
-      border-radius: 8px;
-      margin-bottom: 10px;
-      background: rgba(255,255,255,0.03);
-    }
-    .muted { color: var(--muted); font-size: 13px; }
-    .small { font-size: 13px; color: var(--muted); }
-    .verify-btn {
-      background: var(--accent);
-      color: var(--btntext);
-      padding: 4px 8px;
-      border-radius: 6px;
-      font-size: 12px;
-      text-decoration: none;
-      margin-left: 10px;
-      font-weight: 600;
-    }
-    .verify-btn:hover { opacity: 0.85; }
-    footer {
-      margin-top: 40px;
-      color: var(--muted);
-      font-size: 13px;
-      text-align: center;
-      padding-top: 10px;
-      border-top: 1px solid rgba(255,255,255,0.1);
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body data-theme="dark">
@@ -144,52 +14,24 @@
       <div class="avatar">
         <img src="assets/profile.png" alt="Ehsan Shah Profile Picture" />
       </div>
-      <div style="flex:1;">
+      <div class="info">
         <h1>Ehsan Shah</h1>
         <p class="lead">UX Designer • Human–Computer Interaction Researcher • Data-Driven Interface Specialist</p>
-       <nav>
-  <a class="btn" href="#projects">Projects</a>
-  <a class="btn" href="#experience">Experience</a>
-  <a class="btn" href="#skills">Skills</a>
-  <a class="btn" href="#certifications">Certifications</a>
-  <a class="btn" href="#contact">Contact</a>
-  <a class="btn" href="assets/Ehsan_Shah_UX_CV_2025.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
-</nav>
-
+        <nav>
+          <a class="btn" href="#projects">Projects</a>
+          <a class="btn" href="#experience">Experience</a>
+          <a class="btn" href="#skills">Skills</a>
+          <a class="btn" href="#certifications">Certifications</a>
+          <a class="btn" href="#contact">Contact</a>
+          <a class="btn" href="assets/Ehsan_Shah_UX_CV_2025.pdf" target="_blank">Download CV (PDF)</a>
+        </nav>
       </div>
       <button id="themeToggle" class="toggle">🌙 Dark Mode</button>
     </header>
 
     <div class="grid">
       <main>
-        <section class="card" id="about">
-          <h2>About</h2>
-          <p>
-            My research and professional interests lie at the intersection of
-            <strong>User Experience (UX) Design</strong>,
-            <strong>Human–Computer Interaction (HCI)</strong>, and
-            <strong>Data-Driven Interfaces</strong>. I aim to design intuitive,
-            inclusive, and user-centered digital systems that enhance usability and accessibility in education, e-commerce, and smart technologies.
-          </p>
-        </section>
-
-        <section class="card" id="experience">
-          <h2>Experience</h2>
-          <ul class="clean">
-            <li class="item">
-              <strong>Lecturer in Computer Science — University of Gwadar</strong>
-              <div class="muted">Jan 2023 – Present · Gwadar, Pakistan</div>
-              <div class="small">Teaching courses in Computer Science and ICT emphasizing human-centered design, usability, and accessibility. Supervised student projects focusing on UX and UI development.</div>
-            </li>
-            <li class="item">
-              <strong>Computer Instructor — Pak-China Technical & Vocational Institute</strong>
-              <div class="muted">May 2024 – Aug 2024</div>
-              <div class="small">Delivered applied computer training focusing on interface usability, accessibility, and design fundamentals for real-world systems.</div>
-            </li>
-          </ul>
-        </section>
-
-        <section class="card" id="projects">
+        <section class="card fade" id="projects">
           <h2>Selected Projects</h2>
           <div class="item">
             <strong>Smart Home Dashboard (Final Year Project)</strong>
@@ -201,70 +43,82 @@
           </div>
         </section>
 
-        <section class="card" id="certifications">
-          <h2>Certifications</h2>
+        <section class="card fade" id="experience">
+          <h2>Experience</h2>
           <ul class="clean">
-            <li class="item">Google UX Design Certificate (Sep 2025)<a class="verify-btn" href="https://coursera.org/verify/professional-cert/C58DFLVRPNLA" target="_blank">Verify</a></li>
-            <li class="item">Google Introduction to AI (Sep 2025)<a class="verify-btn" href="https://www.coursera.org/account/accomplishments/certificate/SJBAUJ8XA4EY" target="_blank">Verify</a></li>
-            <li class="item">Google IT Support (Oct 2024)<a class="verify-btn" href="https://coursera.org/verify/professional-cert/PE8E0DACXZE8" target="_blank">Verify</a></li>
-            <li class="item">Google Data Analytics (Oct 2024)<a class="verify-btn" href="https://coursera.org/verify/professional-cert/YNBWA6U3PQ39" target="_blank">Verify</a></li>
-            <li class="item">Google Advanced Data (Oct 2024)<a class="verify-btn" href="https://coursera.org/verify/professional-cert/MDR8G0UJDS29" target="_blank">Verify</a></li>
-            <li class="item">AWS Solutions Architect – Associate (Jun 2022)<a class="verify-btn" href="https://cp.certmetrics.com/amazon/en/public/verify/credential/GPDW879DFB41QFWN" target="_blank">Verify</a></li>
-            <li class="item">EC-Council CHFI (Apr 2022)<a class="verify-btn" href="https://aspen.eccouncil.org/Verify/ECC2085463791" target="_blank">Verify</a></li>
+            <li class="item">
+              <strong>Lecturer in Computer Science — University of Gwadar</strong>
+              <div class="muted">Jan 2023 – Present · Gwadar, Pakistan</div>
+              <div class="small">Teaching courses emphasizing human-centered design, usability, and accessibility. Supervised projects focusing on UX and UI development.</div>
+            </li>
+            <li class="item">
+              <strong>Computer Instructor — Pak-China Technical & Vocational Institute</strong>
+              <div class="muted">May 2024 – Aug 2024</div>
+              <div class="small">Delivered computer training focusing on usability, accessibility, and design fundamentals for real-world systems.</div>
+            </li>
           </ul>
         </section>
 
-<section class="card" id="skills">
-  <h2>🧰 Skills & Tools</h2>
-  <ul class="clean">
-    <li class="item">
-      <strong>UX & Design</strong>
-      <div class="muted small">Figma · Adobe XD · Sketch · InVision</div>
-    </li>
-    <li class="item">
-      <strong>User Research</strong>
-      <div class="muted small">Usability Testing · A/B Testing · Persona Creation</div>
-    </li>
-    <li class="item">
-      <strong>Front-End</strong>
-      <div class="muted small">HTML5 · CSS3 · JavaScript · TailwindCSS</div>
-    </li>
-    <li class="item">
-      <strong>Analytics</strong>
-      <div class="muted small">Google Analytics · Heatmaps · Data-Driven UX Insights</div>
-    </li>
-    <li class="item">
-      <strong>Other</strong>
-      <div class="muted small">Python · SQL · MS Office · Google Workspace</div>
-    </li>
-  </ul>
-</section>
+        <section class="card fade" id="skills">
+          <h2>🧰 Skills & Tools</h2>
+          <ul class="clean">
+            <li class="item"><strong>UX & Design:</strong> Figma · Adobe XD · Sketch · InVision</li>
+            <li class="item"><strong>User Research:</strong> Usability Testing · A/B Testing · Persona Creation</li>
+            <li class="item"><strong>Front-End:</strong> HTML5 · CSS3 · JavaScript · TailwindCSS</li>
+            <li class="item"><strong>Analytics:</strong> Google Analytics · Heatmaps · Data-Driven UX Insights</li>
+            <li class="item"><strong>Other:</strong> Python · SQL · MS Office · Google Workspace</li>
+          </ul>
+        </section>
 
-
+        <section class="card fade" id="certifications">
+          <h2>Certifications</h2>
+          <ul class="clean">
+            <li class="item">Google UX Design Certificate (Sep 2025)
+              <a class="verify-btn" href="https://coursera.org/verify/professional-cert/C58DFLVRPNLA" target="_blank">Verify</a>
+            </li>
+            <li class="item">Google Introduction to AI (Sep 2025)
+              <a class="verify-btn" href="https://www.coursera.org/account/accomplishments/certificate/SJBAUJ8XA4EY" target="_blank">Verify</a>
+            </li>
+            <li class="item">Google IT Support (Oct 2024)
+              <a class="verify-btn" href="https://coursera.org/verify/professional-cert/PE8E0DACXZE8" target="_blank">Verify</a>
+            </li>
+            <li class="item">Google Data Analytics (Oct 2024)
+              <a class="verify-btn" href="https://coursera.org/verify/professional-cert/YNBWA6U3PQ39" target="_blank">Verify</a>
+            </li>
+            <li class="item">Google Advanced Data (Oct 2024)
+              <a class="verify-btn" href="https://coursera.org/verify/professional-cert/MDR8G0UJDS29" target="_blank">Verify</a>
+            </li>
+            <li class="item">AWS Solutions Architect – Associate (Jun 2022)
+              <a class="verify-btn" href="https://cp.certmetrics.com/amazon/en/public/verify/credential/GPDW879DFB41QFWN" target="_blank">Verify</a>
+            </li>
+            <li class="item">EC-Council CHFI (Apr 2022)
+              <a class="verify-btn" href="https://aspen.eccouncil.org/Verify/ECC2085463791" target="_blank">Verify</a>
+            </li>
+          </ul>
+        </section>
       </main>
 
       <aside>
-        <div class="card" id="contact">
+        <div class="card fade" id="contact">
           <h2>Contact</h2>
           <p class="small">
-            📧 <strong>Email:</strong> <a href="mailto:ehsanshah.cs@outlook.com" style="color:var(--accent)">ehsanshah.cs@outlook.com</a><br/>
+            📧 <strong>Email:</strong> 
+            <a href="mailto:ehsanshah.cs@outlook.com" style="color:var(--accent)">ehsanshah.cs@outlook.com</a><br/>
             📞 <strong>Phone:</strong> +92-324-2677567<br/>
             📍 <strong>Location:</strong> Gwadar, Pakistan<br/>
-            🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ehsanshahbaloch/" target="_blank" style="color:var(--accent)">linkedin.com/in/ehsanshahbaloch</a>
+            🔗 <strong>LinkedIn:</strong> 
+            <a href="https://www.linkedin.com/in/ehsanshahbaloch/" target="_blank" style="color:var(--accent)">linkedin.com/in/ehsanshahbaloch</a>
           </p>
         </div>
 
-<section class="card" id="github">
-  <h2>💻 GitHub & Projects</h2>
-  <p class="small">
-    You can explore my code, UX projects, and open-source contributions on GitHub.
-  </p>
-  <a class="btn" href="https://github.com/ehsanshahbaloch/ehsanshahbaloch.github.io" target="_blank" rel="noopener">📂 View My GitHub Profily</a>
-</section>
+        <div class="card fade" id="github">
+          <h2>💻 GitHub & Projects</h2>
+          <p class="small">Explore my UX projects and code contributions.</p>
+          <a class="btn" href="https://github.com/ehsanshahbaloch/ehsanshahbaloch.github.io" target="_blank" rel="noopener">View GitHub Profile</a>
+        </div>
 
-
-        <div class="card">
-          <h2>Languages</h2>
+        <div class="card fade" id="languages">
+          <h2>🌐 Languages</h2>
           <p class="small">English (Advanced) · Urdu (Fluent) · Balochi (Native)</p>
         </div>
       </aside>
@@ -275,14 +129,8 @@
     </footer>
   </div>
 
-  <script>
-    const btn = document.getElementById("themeToggle");
-    const body = document.body;
-    btn.addEventListener("click", () => {
-      const isDark = body.getAttribute("data-theme") === "dark";
-      body.setAttribute("data-theme", isDark ? "light" : "dark");
-      btn.textContent = isDark ? "☀️ Light Mode" : "🌙 Dark Mode";
-    });
-  </script>
+  <button id="backToTop" title="Back to top">↑</button>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
