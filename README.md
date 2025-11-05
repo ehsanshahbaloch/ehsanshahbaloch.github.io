@@ -1,4 +1,4 @@
-[![Made with HTML5](https://img.shields.io/badge/Made%20with-HTML5-e34f26?style=for-the-badge&logo=html5&logoColor=white)]((https://ehsanshahbaloch.github.io/))
+[![Made with HTML5](https://img.shields.io/badge/Made%20with-HTML5-e34f26?style=for-the-badge&logo=html5&logoColor=white)](https://ehsanshahbaloch.github.io/)
 [![CSS3](https://img.shields.io/badge/Styled%20with-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
 [![Figma](https://img.shields.io/badge/Designed%20in-Figma-f24e1e?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
@@ -99,5 +99,6 @@ This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 © 2025 Ehsan Shah — UX Designer & HCI Researcher
+
 
 
