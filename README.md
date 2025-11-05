@@ -1,8 +1,12 @@
 [![Made with HTML5](https://img.shields.io/badge/Made%20with-HTML5-e34f26?style=for-the-badge&logo=html5&logoColor=white)](#)
 [![CSS3](https://img.shields.io/badge/Styled%20with-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
+[![Figma](https://img.shields.io/badge/Designed%20in-Figma-f24e1e?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Portfolio](https://img.shields.io/badge/View-Portfolio-06b6d4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ehsanshahbaloch.github.io)
 [![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ehsanshahbaloch/)
+[![Email](https://img.shields.io/badge/Email-ehsanshah.cs%40outlook.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ehsanshah.cs@outlook.com)
+[![WhatsApp](https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/923242677567)
+
 
 # 🌐 Ehsan Shah — UX & HCI Portfolio
 
@@ -95,3 +99,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 ---
 
 © 2025 Ehsan Shah — UX Designer & HCI Researcher
+
